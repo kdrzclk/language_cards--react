@@ -1,11 +1,11 @@
-import { languages } from "../../helpers/data.js";
-import Item from "../item/Item.js";
+import { languages } from "../../helpers/data";
+import Item from "../item/Item";
 import "./Card.css";
 
 const Card = () => {
   return (
-    <div className="card-area-container">
-      {/* <div className="bars"></div> */}
+    <div className="cards-area-container">
+      <div className="bars"></div>
       <h1 className="language-title">Languages</h1>
       <div className="cards-container">
         {languages.map((item, index) => {
